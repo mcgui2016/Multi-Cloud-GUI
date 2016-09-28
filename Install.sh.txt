@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# --------------------------------
+# vGUI.org/Download/Install.sh.txt
+# --------------------------------
+#	TGZ = vGUI-Year.MMDD.tgz
+#
+echo "# cd /home/apache "
+echo "# # "
+echo "# wget vGUI.org/Download/$TGZ "
+echo "# # "
+echo "# tar zxvfp $TGZ "
+echo "# "
+echo "# cd html.vGUI/home# ln -s ./vgui-bin.shtml index.shtml "
+echo "# "
+echo "# cd cgi-bin# ln -s ./vGUI.bin.pl vGUI.pl "
+echo "# cd cgi-bin# chown www vGUI.bin.pl "		# which user running httpd
+echo "# "
+#
+# End of Install.sh.txt 
